@@ -1,5 +1,4 @@
-© 2022 Janghyun Choi<br>This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![Docer](https://img.shields.io/badge/Revised%20version-5%2E15%2E24-green?style=flat&logo=Markdown&colorA=black) [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?labelColor=black)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+© 2022 Janghyun Choi<br>This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br>![Docer](https://img.shields.io/badge/Revised%20version-5%2E15%2E24-green?style=flat&logo=Markdown&colorA=black) [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?labelColor=black)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
 # Broad Peak Detection in ChIP-seq Data Using SICER2
@@ -19,11 +18,10 @@ To use `sicer2` you need:
 -  `C compiler` via Xcode command line tools (in macOS)
 -  BedTools
 ![EnvTest](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white) ![EnvTest](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white) [![gith](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/arq5x/bedtools2) [![GitHub release](https://img.shields.io/github/v/release/arq5x/bedtools2?labelColor=black)](https://github.com/arq5x/bedtools2)
-
-**Install BedTools via homebrew**
-```bash 
-$ brew install bedtools
-```
+- **Install BedTools via homebrew**
+    ```bash 
+    $ brew install bedtools
+    ```
 
 # bamToBed: Convert BAM into BED
 `bamtobed` function of the `bedtools` is a conversion utility that converts sequence alignments in BAM format into BED, BED12, and/or BEDPE records. The BED is the most commonly used file format for peak-call analysis. Use the following command to convert BAM into BED with `bamtobed`:
