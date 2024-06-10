@@ -4,31 +4,31 @@
 
 This portfolio showcases a variety of approaches to sequencing technology, focusing on the data processing and analysis of different samples. The purpose of this repository is not to present a single tool, but to display the range of techniques and coding strategies I have employed in my research. Each directory or section of this repository corresponds to different sequencing projects, including but not limited to RNA-seq and ChIP-seq analyses. These projects demonstrate how I handle diverse data sets and apply unique analysis methodologies. This portfolio is broadly organized into two main categories: **data processing**  and **data analysis** (RNA/ChIP-seq).
 
-# Table of Contents
-### **Data Processing**
+## Table of Contents
+#### **Data Processing**
 - [Basal QC with FastQC](/DataProcess/FastQC_manual.md)
-- [Trimmed reads with Trimmomatic](/path/to/Trimmed-reads-with-Trimmomatic.md)
-- [Mapping reads with HISAT2 for RNA-seq](/path/to/Mapping-reads-with-HISAT2-for-RNA-seq.md)
-- [Mapping reads with Bowtie2 for ChIP-seq](/path/to/Mapping-reads-with-Bowtie2-for-ChIP-seq.md)
-- [File Conversion and Management with SAMtools](/path/to/File-Conversion-and-Management-with-SAMtools.md)
-- [File storage with Genozip](/path/to/File-storage-with-Genozip.md)
-- [Basal setting and troubleshooting](/path/to/Basal-setting-and-troubleshooting.md)
+- [Trimmed reads with Trimmomatic](DataProcess/Trimmmomatic_manual.md)
+- [Mapping reads with HISAT2 for RNA-seq](/DataProcess/HISAT2_MANUAL.md)
+- [Mapping reads with Bowtie2 for ChIP-seq](/DataProcess/Bowtie2_MANUAL.md)
+- [File Conversion and Management with SAMtools](/DataProcess/SAMtools_MANUAL.md)
+- [Feature counts with htseqCount](/DataProcess/htseqCount_MANUAL.md)
+- [File storage with Genozip](/DataProcess/Genozip_MANUAL.md)
+- [Basal setting and troubleshooting](/DataProcess/BasalSettingTroubleShooting.md)
 
-### **Data Analysis - RNA-seq**
-- [Feature counts with htseqCount](/path/to/Feature-counts-with-htseqCount.md)
-- [Normalization and DEG analysis with edgeR](/path/to/Normalization-and-DEG-analysis-with-edgeR.md)
-- [DEG: Correlation plot](/path/to/DEG-Correlation-plot.md)
-- [DEG: Visualization - Volcano plot and Scatter plot](/path/to/DEG-Visualization-Volcano-and-Scatter-plot.md)
-- [DEG: Gene ontology and KEGG pathway analysis](/path/to/DEG-Gene-ontology-and-KEGG-pathway-analysis.md)
-- [DEG: Heatmap](/path/to/DEG-Heatmap.md)
+#### **Data Analysis - RNA-seq**
+- [Normalization and DEG analysis with edgeR](/DataAnalysis_RNASeq/DEG_edgeR_MANUAL.md)
+- [DEG: Correlation plot](/DataAnalysis_RNASeq/DEG_CorPlot_MANUAL.md)
+- [DEG: Visualization - Volcano plot and Scatter plot](/DataAnalysis_RNASeq/DEG_plotting_MANUAL.md)
+- [DEG: Gene ontology and KEGG pathway analysis](/DataAnalysis_RNASeq/GO_KEGG_MANUAL.md)
+- [DEG: Heatmap](/DataAnalysis_RNASeq/HEATMAP_MANUAL.md)
 
-### **Data Analysis - ChIP-seq**
-- [Exploring Sequencing Data with deepTools](/path/to/Exploring-Sequencing-Data-with-deepTools.md)
-- [Efficient Analysis and Visualization of ChIP-seq Data with ngs.plot](/path/to/Efficient-Analysis-and-Visualization-with-ngs.plot.md)
-- [Peak detection: MACS3](/path/to/Peak-detection-MACS3.md)
-- [Peak detection: SICER2](/path/to/Peak-detection-SICER2.md)
-- [Peak Annotation with ChIPseeker](/path/to/Peak-Annotation-with-ChIPseeker.md)
-- [Motif analysis with HOMER and MEME](/path/to/Motif-analysis-with-HOMER-and-MEME.md)
+#### **Data Analysis - ChIP-seq**
+- [Exploring Sequencing Data with deepTools](/DataAnalysis_ChIPSeq/deepTools_MANUAL.md)
+- [Efficient Analysis and Visualization of ChIP-seq Data with ngs.plot](/DataAnalysis_ChIPSeq/ngsplot_MANUAL.md)
+- [Peak detection: MACS3](/DataAnalysis_ChIPSeq/MACS_MANUAL.md)
+- [Peak detection: SICER2](/DataAnalysis_ChIPSeq/SICER2_MANUAL.md)
+- [Peak Annotation with ChIPseeker](/DataAnalysis_ChIPSeq/PeakAnnotation_MANUAL.md)
+- [Motif analysis with HOMER and MEME](/DataAnalysis_ChIPSeq/MotifAnalysis_MANUAL.md)
 
 
 ## Featured Projects
