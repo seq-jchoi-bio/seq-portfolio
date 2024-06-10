@@ -1,4 +1,6 @@
-© 2022 Janghyun Choi<br>This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br>![Docer](https://img.shields.io/badge/Revised%20version-5%2E15%2E24-green?style=flat&logo=Markdown&colorA=black) [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?labelColor=black)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+© 2022 Janghyun Choi
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![Docer](https://img.shields.io/badge/Revised%20version-5%2E15%2E24-green?style=flat&logo=Markdown&colorA=black) [![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green?labelColor=black)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
 # Broad Peak Detection in ChIP-seq Data Using SICER2
@@ -6,7 +8,6 @@ Chromatin immunoprecipitation combined with high-throughput sequencing (ChIP-seq
 
 # Installation SICER2
 ![EnvTest](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white) [![gith](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/zanglab/SICER2) [![githio](https://img.shields.io/badge/GitHub.io-181717?style=flat&logo=github&logoColor=yellow)](https://zanglab.github.io/SICER2/) [![Version](https://img.shields.io/badge/release-1.0.3-blue?labelColor=black)](https://github.com/zanglab/SICER2) [![Status](https://img.shields.io/badge/build-passing-DarkSeaGreen?labelColor=black)](https://travis-ci.com/zanglab/SICER2)
-
 To install SICER2 via Pypi, use the following commands:
 ```bash
 $ pip install sicer2
@@ -18,7 +19,7 @@ To use `sicer2` you need:
 -  `C compiler` via Xcode command line tools (in macOS)
 -  BedTools
 ![EnvTest](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white) ![EnvTest](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white) [![gith](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/arq5x/bedtools2) [![GitHub release](https://img.shields.io/github/v/release/arq5x/bedtools2?labelColor=black)](https://github.com/arq5x/bedtools2)
-- **Install BedTools via homebrew**
+**Install BedTools via homebrew**
     ```bash 
     $ brew install bedtools
     ```
@@ -333,3 +334,9 @@ $ sicer_df -t H2O2_MLL1.bed Unt_MLL1.bed -s hg19 -w 30 -g 60 -fdr_df 0.05 --cpu 
 -o /Users/jchoi/Desktop/sicer_df/MLL1
 ```
 The output will be the same as the format of `sicer`.
+
+# Citation
+- SICER2
+**Zang, C.**, Schones, D. E., Zeng, C., Cui, K., Zhao, K., & Peng, W. (2009). **A clustering approach for identification of enriched domains from histone modification ChIP-Seq data**. *Bioinformatics*, 25(15), 1952-1958. [DOI](https://doi.org/10.1093/bioinformatics/btp340)
+- bedTools
+**Quinlan, A. R.**, & Hall, I. M. (2010). **BEDTools: a flexible suite of utilities for comparing genomic features**. *Bioinformatics*, 26(6), 841-842. [DOI](https://doi.org/10.1093/bioinformatics/btq033)

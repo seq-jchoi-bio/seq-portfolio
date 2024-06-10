@@ -290,7 +290,3 @@ $ plotCorrelation -in /Users/jchoi/Desktop/CorrMatrix.npz --corMethod spearman -
     --whatToPlot scatterplot --colorMap RdYlBu -o /Users/jchoi/Desktop/heatmap_SpearmanCorr.svg \
     --outFileCorMatrix /Users/jchoi/Desktop/heatmap_SpearmanCorr.tab
 ```
-
-# Citation
-- deepTools
-**Ramírez, F.**, Dündar, F., Diehl, S., Grüning, B. A., & Manke, T. (2014). **deepTools: a flexible platform for exploring deep-sequencing data**. *Nucleic acids research*, 42(W1), W187-W191. [DOI](https://doi.org/10.1093/nar/gku365)

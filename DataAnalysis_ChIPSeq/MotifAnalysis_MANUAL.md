@@ -318,3 +318,10 @@ Here is an example command to find motif sites from ChIP-seq peaks with `meme-ch
   $ meme-chip obe_IP.fasta -meme-mod zoops -meme-nmotifs 10 -minw 6 -maxw 12 -meme-pal \
   -db /Users/jchoi/Desktop/JASPAR2022_Plant_WRKY.meme -o /Users/jchoi/Desktop/WRKY_Motif
 ```
+
+# Citation
+- HOMER
+**Heinz, S.**, Benner, C., Spann, N., Bertolino, E., Lin, Y. C., Laslo, P., ... & Glass, C. K. (2010). **Simple combinations of lineage-determining transcription factors prime cis-regulatory elements required for macrophage and B cell identities**. *Molecular cell*, 38(4), 576-589. [DOI](https://doi.org/10.1016/j.molcel.2010.05.004)
+<br>
+- MEME suite
+**Bailey, T. L.**, Boden, M., Buske, F. A., Frith, M., Grant, C. E., Clementi, L., ... & Noble, W. S. (2009). **MEME SUITE: tools for motif discovery and searching**. *Nucleic acids research*, 37(suppl_2), W202-W208. [DOI](https://doi.org/10.1093/nar/gkp335)
