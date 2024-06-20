@@ -191,8 +191,8 @@ pheatmap_result_Name <- pheatmap(expression_data,
 ```
 - **Output (Left; Step4, Right; Step5):**
 <div style="text-align: center; margin: 0;">
-    <img src="Images/Pheat1.png" alt="young" style="max-width: 40vh; height: auto;">
-    <img src="Images/Pheat2.png" alt="middle-aged" style="max-width: 40vh; height: auto;">
+    <img src="Images/Pheat1.png" alt="young" style="max-width: 35vh; height: auto;">
+    <img src="Images/Pheat2.png" alt="middle-aged" style="max-width: 35vh; height: auto;">
 </div>
 
 ## CompexHeatmap
