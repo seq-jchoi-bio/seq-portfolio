@@ -355,10 +355,10 @@ main_heatmap2 <- main_heatmap + rowAnnotation(
 draw(main_heatmap2, merge_legends = TRUE, gap = unit(0, "mm"))
 ```
 - **Output (Left; Step3, Right; Step4):**
-<div style="display: flex; justify-content: center; align-items: center;">
-    <img src="Images/complexCase1_1.png" alt="young" style="max-width: 40vh; height: auto; margin-right: 5px;">
-    <img src="Images/complexCase1_2.png" alt="middle-aged" style="max-width: 40vh; height: auto;">
-</div>
+<p align="center">
+    <img src="Images/complexCase1_1.png" alt="young" style="width: 40vh; height: auto;">
+    <img src="Images/complexCase1_2.png" alt="middle-aged" style="width: 40vh; height: auto;">
+</p>
 
 ### Step-by-Step Guide: Case II - Integration of RNA-seq with Simpler Structured Dataset
 In this dataset, genes that respond to stress in human keratinocytes and three derived knockdown cell types are categorized by their fold change values, using normal cell expression levels as a baseline. Then, these genes were manually grouped into four categories (`Cluster`row) based on their expression patterns. Additionally, genes associated with ROS are enumerated in a separate row (`ROS.hallmark`) and identified as `ROS`. Moreover, the presence of MLL1, H3K4me3, UTX, and H3K27me3 peaks, as detected in normal cells under stress conditions from ChIP-seq results, is indicated by `0` (NO) and `1` (Yes) values.
