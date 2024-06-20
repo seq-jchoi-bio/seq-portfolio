@@ -486,10 +486,10 @@ library(readxl)
     ```
 
     - **Output(left; Barplot, Right; Dotplot):**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/enrich_Barplot.png" alt="young" style="max-width: 30vh; height: auto;">
-        <img src="Images/enrich_Dot.png" alt="middle-aged" style="max-width: 30vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/enrich_Barplot.png" alt="Barplot" style="width: 40vh; height: auto;">
+        <img src="Images/enrich_Dot.png" alt="enrichDot" style="width: 40vh; height: auto;">
+    </p>
 
     3. Gene-concept network:
     ```R
@@ -503,10 +503,10 @@ library(readxl)
     ```
 
     - **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/enrich_network1.png" alt="version1" style="max-width: 30vh; height: auto;">
-        <img src="Images/enrich_network2.png" alt="version2" style="max-width: 30vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/enrich_network1.png" alt="network1" style="width: 40vh; height: auto;">
+        <img src="Images/enrich_network2.png" alt="network2" style="width: 40vh; height: auto;">
+    </p>
     
     4. Heatmap-like functional classification:
     ```R
@@ -518,7 +518,7 @@ library(readxl)
     ```
     - **Output:**
     <div style="text-align: center; margin: 0;">
-        <img src="Images/enrich_Heatpl.png" alt="version1" style="max-width: 60vh; height: auto;">
+        <img src="Images/enrich_Heatpl.png" alt="version1" style="width: 80vh; height: auto;">
     </div>
 
     5. Tree plot
@@ -528,7 +528,7 @@ library(readxl)
     ```
     - **Output:**
     <div style="text-align: center; margin: 0;">
-        <img src="Images/enrich_Treeplot.png" alt="version2" style="max-width: 30vh; height: auto;">
+        <img src="Images/enrich_Treeplot.png" alt="version2" style="width: 40vh; height: auto;">
     </div>
 
     6. **Gene Set Enrichment Analysis (GSEA)**:
@@ -598,15 +598,22 @@ library(readxl)
         ```
     - **Output:**
     <div style="text-align: center; margin: 0;">
-        <img src="Images/enrich_GSEA.png" alt="version2" style="max-width: 30vh; height: auto;">
+        <img src="Images/enrich_GSEA.png" alt="version2" style="width: 40vh; height: auto;">
     </div>
-# Citation
+
+# Citations
 - DAVID
+
 **Huang, D. W.**, Sherman, B. T., Tan, Q., Kir, J., Liu, D., Bryant, D., ... & Lempicki, R. A. (2007). **DAVID Bioinformatics Resources: expanded annotation database and novel algorithms to better extract biology from large gene lists**. *Nucleic acids research*, 35(suppl_2), W169-W175. [DOI](https://doi.org/10.1093/nar/gkm415)
 
 - Gene Ontology Resource
+
 Gene Ontology Consortium. (2001). **Creating the gene ontology resource: design and implementation**. *Genome research*, 11(8), 1425-1433. [DOI](https://doi.org/10.1101/gr.180801)
+
 - ClusterProfiler
+
 **Yu, G.**, Wang, L. G., Han, Y., & He, Q. Y. (2012). **clusterProfiler: an R package for comparing biological themes among gene clusters**. *Omics: a journal of integrative biology*, 16(5), 284-287. [DOI](https://doi.org/10.1089/omi.2011.0118)
+
 - GSEA
+
 **Subramanian, A.**, Tamayo, P., Mootha, V. K., Mukherjee, S., Ebert, B. L., Gillette, M. A., ... & Mesirov, J. P. (2005). **Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles**. *Proceedings of the National Academy of Sciences*, 102(43), 15545-15550. [DOI](https://doi.org/10.1073/pnas.0506580102)

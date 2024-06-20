@@ -503,8 +503,8 @@ draw(heatmap_final, merge_legends = TRUE, gap = unit(0, "mm"))
 ```
 - **Output (Left; Step2, Right; Step3):**
 <p align="center">
-    <img src="Images/complexCase2_1.png" alt="young" style="max-width: 35vh; height: auto;">
-    <img src="Images/complexCase2_2.png" alt="middle-aged" style="max-width: 35vh; height: auto;">
+    <img src="Images/complexCase2_1.png" alt="young" style="width: 35vh; height: auto;">
+    <img src="Images/complexCase2_2.png" alt="middle-aged" style="width: 35vh; height: auto;">
 </p>
 
 ### Step-by-Step Guide: Case III - Multiple RNA-seq Combined with ChIP-seq
@@ -750,10 +750,12 @@ TF_heatmap_Rev <- TF_heatmap + rowAnnotation(
     <img src="Images/complexCase3.png" alt="young" style="max-width: 50vh; height: auto;">
 </div>
 
-# Citation
+# Citations
 - pheatmap
+
 **Kolde, R.**, & Kolde, M. R. (2015). **Package ‘pheatmap’**. *R package*, 1(7), 790. [PDF](https://cran.ms.unimelb.edu.au/web/packages/pheatmap/pheatmap.pdf)
 
 - complexHeatmap
+
 Gu, Z., & Hübschmann, D. (2022). Make interactive complex heatmaps in R. Bioinformatics, 38(5), 1460-1462. [DOI](https://doi.org/10.1093/bioinformatics/btab806)
 
