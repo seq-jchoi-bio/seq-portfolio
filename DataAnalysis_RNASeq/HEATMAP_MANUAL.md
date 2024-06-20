@@ -190,10 +190,11 @@ pheatmap_result_Name <- pheatmap(expression_data,
          cellheight = 0.06, cellwidth = 30)
 ```
 - **Output (Left; Step4, Right; Step5):**
-<div style="text-align: center; margin: 0;">
-    <img src="Images/Pheat1.png" alt="young" style="max-width: 35vh; height: auto;">
-    <img src="Images/Pheat2.png" alt="middle-aged" style="max-width: 35vh; height: auto;">
-</div>
+<p align="center">
+    <img src="Images/Pheat1.png" alt="young" style="width: 35vh; height: auto;">
+    <img src="Images/Pheat2.png" alt="middle-aged" style="width: 35vh; height: auto;">
+</p>
+
 
 ## CompexHeatmap
 ![EnvTest](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white) ![EnvTest](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white) ![EnvTest3](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white) [![gith](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/jokergoo/ComplexHeatmap) [![githio](https://img.shields.io/badge/GitHub.io-181717?style=flat&logo=github&logoColor=yellow)](https://jokergoo.github.io/ComplexHeatmap-reference/book/) [![BioC](https://img.shields.io/badge/BioC-276DC3?style=flat&logo=r&logoColor=white)](https://bioconductor.org/packages/release/bioc/html/ComplexHeatmap.html) [![GitHub release](https://img.shields.io/github/v/release/jokergoo/ComplexHeatmap?labelColor=black)](https://github.com/jokergoo/ComplexHeatmap/releases) [![Project Status](https://img.shields.io/badge/status-stable-DarkSeaGreen?style=flat&colorA=000000)](https://github.com/jokergoo/ComplexHeatmap)
