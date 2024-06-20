@@ -34,7 +34,7 @@ Install additional libraries necessary for ChIPseeker to function properly. Thes
     - `org.Mm.eg.db`: Genome wide annotation for Mouse
     - `org.Hs.eg.db`: Genome wide annotation for human
 
-    ###### **Suggestion**. Before installing each package, check if it is already installed and only install those that are missing. This can save time and avoid unnecessary installations. Here is how you can check and install a package only if it's not already installed:
+    **Suggestion**. Before installing each package, check if it is already installed and only install those that are missing. This can save time and avoid unnecessary installations. Here is how you can check and install a package only if it's not already installed:
     ```R
     install_if_missing <- function(package_name) {
         if (!requireNamespace(package_name, quietly = TRUE)) {
@@ -178,9 +178,9 @@ library(RColorBrewer)
     covplot(peaks[["H3K4me3"]], weightCol="V4", chrs=c("chr3", "chr4"))
     ```
     **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/CoveragePlot.png" alt="coverage" style="max-width: 60vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/CoveragePlot.png" alt="coverage" style="width: 60vh; height: auto;">
+    </p>
 
 ### 4. Profile of ChIP peaks binding to TSS regions
 - For calculating the profile of ChIP peaks binding to TSS regions, prepare the TSS regions, which are defined as the flanking sequence of the TSS sites. Then align the peaks that are mapping to these regions, and generate the tagMatrix:
@@ -243,9 +243,9 @@ library(RColorBrewer)
     >> generating figure...		 2024-05-21 14:38:54 
     >> done...			 2024-05-21 14:38:54 
     ```
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/peakHeatmap.png" alt="heatmap" style="max-width: 50vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/peakHeatmap.png" alt="heatmap" style="width: 40vh; height: auto;">
+    </p>
 
 - Average Profile of ChIP peaks binding to TSS region
     ```R
@@ -268,9 +268,9 @@ library(RColorBrewer)
     >> Running bootstrapping for tag matrix...		 2024-05-21 16:17:15 
     >> Running bootstrapping for tag matrix...		 2024-05-21 16:17:34 
     ```
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/AveragePlot.png" alt="Averageplot" style="max-width: 50vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/AveragePlot.png" alt="Averageplot" style="width: 40vh; height: auto;">
+    </p>
 
 - **Adding your own Transcript Database(Txdb)**: Species that are less commonly studied often do not have associated database packages in R. In such cases, it is possible to extract the Txdb simply using `makeTxDbFromGFF` function from the GTF file. In this context, I will use the rice genome as an example to demonstrate the extraction method.
     ```R
@@ -423,18 +423,18 @@ library(RColorBrewer)
     plotAnnoPie(peakAnnoList[["H3K4me3"]]) # Ouput
     ```
     **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/Pieplot.png" alt="Pieplot" style="max-width: 40vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/Pieplot.png" alt="Pieplot" style="width: 35vh; height: auto;">
+    </p>
 - **Bar plot**
     ```R
     plotAnnoBar(peakAnnoList) # Multiplot, output
     plotAnnoBar(peakAnnoList[["PeakName"]]) # Indivisual plot
     ```
     **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/Barplot.png" alt="Pieplot" style="max-height: 40vh; widht: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/Barplot.png" alt="Pieplot" style="height: 35vh; widht: auto;">
+    </p>
 - **Vennpie plot**: This funtion does not provide drawing multiplot.
     ```R
     vennpie(peakAnnoList[["PeakName"]])
@@ -444,18 +444,18 @@ library(RColorBrewer)
     upsetplot(peakAnnoList[["PeakName"]], vennpie = TRUE) # TRUE/FALSE: with/without vennpie, output
     ```
     **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/UpsetWithVenn.png" alt="Upsetplot with vennpie" style="max-height: 40vh; widht: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/UpsetWithVenn.png" alt="Upsetplot with vennpie" style="height: 35vh; widht: auto;">
+    </p>
 - **Distribution of TF-binding loci relative to TSS**: The distance from the peak (binding site) to the TSS of the nearest gene is calculated by annotatePeak and reported in the output.
     ```R
     plotDistToTSS(peakAnnoList) # output
     plotDistToTSS(peakAnnoList[["PeakName"]])
     ```
     **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/Dist2TSS.png" alt="Upsetplot with vennpie" style="max-height: 40vh; widht: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/Dist2TSS.png" alt="Upsetplot with vennpie" style="height: 35vh; widht: auto;">
+    </p>
 
 ### Comments
 1. The annotated peak data is crucial for analyzing ChIP-seq data.
@@ -466,5 +466,5 @@ library(RColorBrewer)
 6. Despite the effort invested in detailed peak analysis, the current trend is to identify meaningful genes from the detected peaks.
 
 # Citation
-- ChIPSeeker
+### ChIPSeeker
 **Yu, G.**, Wang, L. G., & He, Q. Y. (2015). **ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparison and visualization**. *Bioinformatics*, 31(14), 2382-2383. [DOI](https://doi.org/10.1093/bioinformatics/btv145)

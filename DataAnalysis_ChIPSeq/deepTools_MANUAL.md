@@ -235,7 +235,7 @@ In these commands,
 - `--color <'color code'>`: List of colors to use for the plotted lines (color names or hex strings). For example `--colors '#e89b81' '#959dc8' '#f6f0a8'`
 - `--numPlotsPerRow <int>`: Number of plots per row
 
-#### Overall, the `plotHeatmap` and `plotProfile` functions, powered by `computeMatrix`, are commonly used to visualize the tag distribution of peaks and are featured prominently in numerous publications. However, for more detailed analysis, I recommend using <u>Python-based `ngs.plot.r`</u> or the <u>`ChIPseeker` R package </u>, which offer enhanced detail and additional analytical capabilities.
+**Overall,** the `plotHeatmap` and `plotProfile` functions, powered by `computeMatrix`, are commonly used to visualize the tag distribution of peaks and are featured prominently in numerous publications. However, for more detailed analysis, I recommend using <u>Python-based `ngs.plot.r`</u> or the <u>`ChIPseeker` R package </u>, which offer enhanced detail and additional analytical capabilities.
 
 # multiBigwigSummary and multiBamSummary
 `multiBigwigSummary` and `multiBamSummary` compute the average score/read coverages for genomic regions for two or more bigWig and BAM files, respectively. This analysis is performed for the entire genome by running the program in bins mode, or for certain user selected regions in BED-file mode. Most commonly, the default output of `multiBigwigSummary` (a compressed numpy array, **.npz**) is used by other tools such as `plotCorrelation` or `plotPCA` for visualization and diagnostic purposes. Use the following command to make a summary matrix from bigWig files with `multiBigwigSummary`:
@@ -290,3 +290,7 @@ $ plotCorrelation -in /Users/jchoi/Desktop/CorrMatrix.npz --corMethod spearman -
     --whatToPlot scatterplot --colorMap RdYlBu -o /Users/jchoi/Desktop/heatmap_SpearmanCorr.svg \
     --outFileCorMatrix /Users/jchoi/Desktop/heatmap_SpearmanCorr.tab
 ```
+
+# Citation
+### deepTools
+**Ramírez, F.**, Dündar, F., Diehl, S., Grüning, B. A., & Manke, T. (2014). **deepTools: a flexible platform for exploring deep-sequencing data**. *Nucleic acids research*, 42(W1), W187-W191. [DOI](https://doi.org/10.1093/nar/gku365)

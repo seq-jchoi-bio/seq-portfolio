@@ -58,7 +58,6 @@ The 'ngs.plot' tool is a specialized resource designed to enhance the visualizat
     mm10	GRCm38	mus_musculus	75.0	3.0	cgi,exon,genebody,tss,tes
     ```
 
- [![gith](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/shenlab-sinai/ngsplot)
 **Note.** This tool may occasionally experience malfunctions. These are predominantly attributed to issues with Python syntax, and the author swiftly addresses and resolves these concerns by issuing updated source code. Should the tool cease to function abruptly, it is advisable to consult the creator's GitHub repository.
 
 # Running ngs.plot
@@ -116,8 +115,10 @@ $ ngs.plot.r -G hg19 -R genebody -C H3K4_K27.txt -O /Users/jchoi/Desktop/Bivalen
 
 ### Example Plot
 The graph created using the second (multiplot) of the example codes above, refined using Illustrator 2024.
-
+<p align="center">
+    <img src="Images/ngsPlot.png" alt="Bivalent" style="height: 40vh; widht: auto;">
+</p>
 
 # Citation
-- ngs.plot
+### ngs.plot
 **Shen, L.**, Shao, N., Liu, X., & Nestler, E. (2014). **ngs. plot: Quick mining and visualization of next-generation sequencing data by integrating genomic databases**. *BMC genomics*, 15, 1-14. [DOI](https://doi.org/10.1186/1471-2164-15-284)

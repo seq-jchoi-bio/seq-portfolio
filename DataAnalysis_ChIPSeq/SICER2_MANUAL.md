@@ -335,8 +335,8 @@ $ sicer_df -t H2O2_MLL1.bed Unt_MLL1.bed -s hg19 -w 30 -g 60 -fdr_df 0.05 --cpu 
 ```
 The output will be the same as the format of `sicer`.
 
-# Citation
-- SICER2
+# Citations
+### SICER2
 **Zang, C.**, Schones, D. E., Zeng, C., Cui, K., Zhao, K., & Peng, W. (2009). **A clustering approach for identification of enriched domains from histone modification ChIP-Seq data**. *Bioinformatics*, 25(15), 1952-1958. [DOI](https://doi.org/10.1093/bioinformatics/btp340)
-- bedTools
+### bedTools
 **Quinlan, A. R.**, & Hall, I. M. (2010). **BEDTools: a flexible suite of utilities for comparing genomic features**. *Bioinformatics*, 26(6), 841-842. [DOI](https://doi.org/10.1093/bioinformatics/btq033)

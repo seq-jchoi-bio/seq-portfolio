@@ -315,5 +315,5 @@ When running `bdgdiff`, it will print out the progress as shown below:
 ```
 
 # Citation
-- MACS
+### MACS
 **Zhang, Y.**, Liu, T., Meyer, C. A., Eeckhoute, J., Johnson, D. S., Bernstein, B. E., ... & Liu, X. S. (2008).**Model-based analysis of ChIP-Seq (MACS)**. *Genome biology*, 9, 1-9. [DOI](https://doi.org/10.1186/gb-2008-9-9-r137)
