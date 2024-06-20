@@ -220,9 +220,9 @@ library(data.table)
     abline(h=median(as.matrix(pseudoCounts)), col="blue") # Save boxplot
     ```
     **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/beforeN.png" alt="beforeNormalization" style="max-width: 50vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/beforeN.png" alt="beforeNormalization" style="width: 40vh; height: auto;">
+    </p>
 
 ### 6. TMM Normalization
 - In this process, I will perform TMM normalization.
@@ -302,9 +302,9 @@ library(data.table)
     ```
 
 - **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/afterN.png" alt="afterNormalization" style="max-width: 50vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/afterN.png" alt="afterNormalization" style="width: 40vh; height: auto;">
+    </p>
 
 - **Drwing a principal component analysis (PCA) plot**: PCA visualizes the major sources of variation in the data by transforming it into principal components. It highlights the directions (principal components) where the data varies the most, helping to identify patterns and groupings among the samples. The PCA plot is useful for understanding the overall structure and key sources of variation in the dataset.
     ```R
@@ -465,9 +465,9 @@ library(data.table)
 After performing DEG analysis, the results may be displayed using gene (or transcript) IDs instead of gene symbols. To convert these IDs into various information such as gene symbols and biotypes, annotation is required. Two main methods for this are using the `biomaRt` R package or extracting information directly from a GTF file.
 
 - **Biomart** (`biomaRt`) offers access to a vast array of biological data through the Ensembl database, facilitating the easy conversion of gene IDs to gene symbols. However, this conversion can be more challenging and complex for species other than humans and mice. Therefore, it is recommended to use Biomart for gene conversion in the cases of human and mouse data.
-<br>
+
 - Alternatively, the **GTF file method** entails extracting information from a locally stored gene annotation file. By parsing the GTF file, one can map gene IDs to gene symbols. This approach is versatile and can be applied to any species, provided that a GTF file is available.
-<br>
+
 - the biomaRt method for human and mouse data:
     ```R
     mart <- useDataset("hsapiens_gene_ensembl", useMart("ensembl")) 
@@ -576,11 +576,10 @@ After performing DEG analysis, the results may be displayed using gene (or trans
     ```
 
 
-# Citation
-- edgeR and TMM normalization
-    1. **Robinson, M. D.**, McCarthy, D. J., & Smyth, G. K. (2010). **edgeR: a Bioconductor package for differential expression analysis of digital gene expression data**. *bioinformatics*, 26(1), 139-140. [DOI](https://doi.org/10.1093/bioinformatics/btp616)
+# Citations
+### edgeR and TMM normalization
+1. **Robinson, M. D.**, McCarthy, D. J., & Smyth, G. K. (2010). **edgeR: a Bioconductor package for differential expression analysis of digital gene expression data**. *bioinformatics*, 26(1), 139-140. [DOI](https://doi.org/10.1093/bioinformatics/btp616)
+2. McCarthy, D. J., Chen, Y., & Smyth, G. K. (2012). Differential expression analysis of multifactor RNA-Seq experiments with respect to biological variation. Nucleic acids research, 40(10), 4288-4297. [DOI](https://doi.org/10.1093/nar/gks042)
 
-    2. McCarthy, D. J., Chen, Y., & Smyth, G. K. (2012). Differential expression analysis of multifactor RNA-Seq experiments with respect to biological variation. Nucleic acids research, 40(10), 4288-4297. [DOI](https://doi.org/10.1093/nar/gks042)
-<br>
-- limma
-    1. **Ritchie, M. E.**, Phipson, B., Wu, D. I., Hu, Y., Law, C. W., Shi, W., & Smyth, G. K. (2015). **limma powers differential expression analyses for RNA-sequencing and microarray studies**. *Nucleic acids research*, 43(7), e47-e47. [DOI](https://doi.org/10.1093/nar/gkv007)
+### limma
+**Ritchie, M. E.**, Phipson, B., Wu, D. I., Hu, Y., Law, C. W., Shi, W., & Smyth, G. K. (2015). **limma powers differential expression analyses for RNA-sequencing and microarray studies**. *Nucleic acids research*, 43(7), e47-e47. [DOI](https://doi.org/10.1093/nar/gkv007)

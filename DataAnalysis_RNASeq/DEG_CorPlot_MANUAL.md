@@ -56,9 +56,9 @@ Add file source, PCA MDS plot
     ggtitle(paste("Correlation Plot between Young Groups (Correlation:", round(correlation, 4), ")"))
     ```
 - **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/CorPlot_Basal.png" alt="BasalPlot" style="max-width: 40vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/CorPlot_Basal.png" alt="BasalPlot" style="width: 40vh; height: auto;">
+    </p>
 
 4. **Identify Outliers**
 - Calculate standardized residuals, Cook's distance, and leverage values to identify outliers:
@@ -88,10 +88,10 @@ Add file source, PCA MDS plot
         annotate("text", x = Inf, y = Inf, label = cor_text, hjust = 3.3, vjust = 3, size = 5, color = "black")
     ```
 - **Output:**
-<div style="text-align: center; margin: 0;">
-    <img src="Images/CorPlot_Young_Final.png" alt="young" style="max-width: 40vh; height: auto;">
-    <img src="Images/CorPlot_MA_Final.png" alt="middle-aged" style="max-width: 40vh; height: auto;">
-</div>
+<p align="center">
+    <img src="Images/CorPlot_Young_Final.png" alt="young" style="width: 40vh; height: auto;">
+    <img src="Images/CorPlot_MA_Final.png" alt="middle-aged" style="width: 40vh; height: auto;">
+</p>
 
 ### Summarize
 ```R
@@ -167,9 +167,9 @@ plot <- ggplot(logcpm, aes(x = Y_mean, y = MA_mean)) +
     annotate("text", x = Inf, y = Inf, label = cor_text, hjust = 3.3, vjust = 3, size = 5, color = "black")
 ```
 - **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/CorPlot_Group_Final.png" alt="Group" style="max-width: 40vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/CorPlot_Group_Final.png" alt="Group" style="width: 40vh; height: auto;">
+    </p>
 
 # t-SNE Plot
 The t-SNE (t-Distributed Stochastic Neighbor Embedding) plot is used to visualize high-dimensional gene expression data in a two-dimensional space. This plot helps to reveal patterns and clusters in the data, allowing for the identification of similarities and differences between groups of samples. By reducing the dimensionality of the data while preserving its structure, t-SNE provides an intuitive way to explore and understand complex biological datasets. This protocol was developed using a system equipped with an Intel 10th generation i9-10910 processor and 48GB of memory. The test environment includes **R version 4.4.0 running on macOS 14.4.1**.
@@ -257,9 +257,9 @@ library(Rtsne)
     - **Line 3**: Make a plot using ggplot2.
 
 - **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/CorPlot_tSNE.png" alt="tSNE" style="max-width: 40vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/CorPlot_tSNE.png" alt="tSNE" style="width: 40vh; height: auto;">
+    </p>
 
 ### Summarize
 ```R
@@ -295,12 +295,12 @@ p2 <- set_panel_size(p, width = unit(49, "mm"), height = unit(49, "mm"))
 grid.arrange(p2)
 ```
 
-# Citation
-- Linear regression using the R package.
+# Citations
+### Linear regression using the R package.
 **Fox, J.**, & Weisberg, S. (2018). **An R companion to applied regression**. *Sage publications*. [HTML](https://socialsciences.mcmaster.ca/jfox/Books/Companion/index.html)
 
-- ggplot2
+### ggplot2
 **Wilkinson, L.** (2011). **ggplot2: elegant graphics for data analysis by WICKHAM, H**. [DOI](https://doi.org/10.1111/j.1541-0420.2011.01616.x)
 
-- t-SNE
+### t-SNE
 **Van der Maaten, L.**, & Hinton, G. (2008). **Visualizing data using t-SNE**. *Journal of machine learning research*, 9(11). [HTML](http://jmlr.org/papers/v9/vandermaaten08a.html)
