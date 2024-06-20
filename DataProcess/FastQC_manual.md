@@ -77,8 +77,8 @@ $ multiqc ./
 ```
 - That is it. `multiqc` will scan the specified directory (`.` is the current dir) and produce a report detailing whatever it finds.
 
-# Citation
-- FastQC
+# Citations
+### FastQC
 **Andrews, S.**, Krueger, F., Segonds-Pichon, A., Biggins, L., Krueger, C., & Wingett, S. (2010). FastQC. **A quality control tool for high throughput sequence data**, 370.
-- multiqc
+### multiqc
 **Ewels, P.**, Magnusson, M., Lundin, S., & Käller, M. (2016). **MultiQC: summarize analysis results for multiple tools and samples in a single report.** *Bioinformatics*, 32(19), 3047-3048. [DOI](https://doi.org/10.1093/bioinformatics/btw354)

@@ -72,7 +72,7 @@ When bowtie2 finishes running, it prints messages summarizing what happened.
 - This message can also be outputted by `samtools`. 
 - **Note,** the subsequent process utilizes the resulting 'SAM' file.
 
-# Citation
-- Bowtie2
-**Langmead, B.**, & Salzberg, S. L. (2012). **Fast gapped-read alignment with Bowtie 2**. *Nature methods*, 9(4), 357-359. [DOI](https://doi.org/10.1038/nmeth.1923)<br>
-**Langmead, B.**, Wilks, C., Antonescu, V., & Charles, R. (2019). **Scaling read aligners to hundreds of threads on general-purpose processors**. *Bioinformatics*, 35(3), 421-432. [DOI](https://doi.org/10.1093/bioinformatics/bty648)
+# Citations
+### Bowtie2
+1. **Langmead, B.**, & Salzberg, S. L. (2012). **Fast gapped-read alignment with Bowtie 2**. *Nature methods*, 9(4), 357-359. [DOI](https://doi.org/10.1038/nmeth.1923)<br>
+2. **Langmead, B.**, Wilks, C., Antonescu, V., & Charles, R. (2019). **Scaling read aligners to hundreds of threads on general-purpose processors**. *Bioinformatics*, 35(3), 421-432. [DOI](https://doi.org/10.1093/bioinformatics/bty648)

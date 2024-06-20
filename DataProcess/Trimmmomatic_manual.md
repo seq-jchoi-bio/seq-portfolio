@@ -85,5 +85,5 @@ When Trimmomatic finishes running, it prints messages summarizing what happened.
 ```
 
 # Citation
-- Trimmomatic
+### Trimmomatic
 **Bolger, A. M.**, Lohse, M., & Usadel, B. (2014). **Trimmomatic: a flexible trimmer for Illumina sequence data**. *Bioinformatics*, 30(15), 2114-2120. [DOI](https://doi.org/10.1093/bioinformatics/btu170)

@@ -56,5 +56,5 @@ $ htseq-count -f bam --strand=no --mode=intersection-nonempty -r name \
 - When htseq-count is running, it will print out the progress in real time. The output is very long, so I will not describe it.
 
 # Citation
-- HTSeq
+### HTSeq
 **Anders, S.**, Pyl, P. T., & Huber, W. (2015). **HTSeq—a Python framework to work with high-throughput sequencing data**. *bioinformatics*, 31(2), 166-169. [DOI](https://doi.org/10.1093/bioinformatics/btu638)

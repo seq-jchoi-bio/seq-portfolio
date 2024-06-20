@@ -3,8 +3,11 @@
 This section offers a comprehensive guide to the fundamental aspects of installing and maintaining software via package managers, specifically focusing on Python, Java, and R. Additionally, it outlines potential solutions to common challenges encountered on silicon Mac computers. This section is organized as follows:
 
 **1. [Converting Shell Environment and Installing Homebrew](#shell-environment)**
+
 **2. [Setting Up Anaconda in Linux](#anaconda-setup)**
+
 **3. [Installing Java JDK 16 in Linux](#installing-java)**
+
 **4. [Troubleshooting in R for macOS](#troubleshooting-r)**
 
 **Disclaimer**: The provided solutions are based on individual experiences and are not comprehensive. They should be considered as general guidance only.

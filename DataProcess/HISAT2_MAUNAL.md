@@ -217,5 +217,5 @@ When HISAT2 finishes running, it prints messages summarizing what happened.
 - **Note,** the subsequent process utilizes the resulting 'SAM' file.
 
 # Citation
-- HISAT2
+### HISAT2
 **Kim, D.**, Paggi, J. M., Park, C., Bennett, C., & Salzberg, S. L. (2019). **Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype**. *Nature biotechnology*, 37(8), 907-915. [DOR](https://doi.org/10.1038/s41587-019-0201-4)

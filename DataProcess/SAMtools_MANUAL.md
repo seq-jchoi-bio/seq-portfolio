@@ -271,5 +271,5 @@ $ samtools index sort.merged_H3K4me3.bam
 ```
 
 # Citation
-- Samtools
+### Samtools
 **Li, H.**, Handsaker, B., Wysoker, A., Fennell, T., Ruan, J., Homer, N., ... & 1000 Genome Project Data Processing Subgroup. (2009). **The sequence alignment/map format and SAMtools**. *bioinformatics*, 25(16), 2078-2079. [DOI](https://doi.org/10.1093/bioinformatics/btp352)
