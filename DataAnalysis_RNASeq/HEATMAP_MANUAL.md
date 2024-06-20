@@ -356,8 +356,8 @@ draw(main_heatmap2, merge_legends = TRUE, gap = unit(0, "mm"))
 ```
 - **Output (Left; Step3, Right; Step4):**
 <p align="center">
-    <img src="Images/complexCase1_1.png" alt="young" style="max-width: 40vh; height: auto;">
-    <img src="Images/complexCase1_2.png" alt="middle-aged" style="max-width: 40vh; height: auto;">
+    <img src="Images/complexCase1_1.png" alt="young" style="max-width: 35vh; height: auto;">
+    <img src="Images/complexCase1_2.png" alt="middle-aged" style="max-width: 35vh; height: auto;">
 </p>
 
 ### Step-by-Step Guide: Case II - Integration of RNA-seq with Simpler Structured Dataset
@@ -503,8 +503,8 @@ draw(heatmap_final, merge_legends = TRUE, gap = unit(0, "mm"))
 ```
 - **Output (Left; Step2, Right; Step3):**
 <p align="center">
-    <img src="Images/complexCase2_1.png" alt="young" style="max-width: 40vh; height: auto;">
-    <img src="Images/complexCase2_2.png" alt="middle-aged" style="max-width: 40vh; height: auto;">
+    <img src="Images/complexCase2_1.png" alt="young" style="max-width: 35vh; height: auto;">
+    <img src="Images/complexCase2_2.png" alt="middle-aged" style="max-width: 35vh; height: auto;">
 </p>
 
 ### Step-by-Step Guide: Case III - Multiple RNA-seq Combined with ChIP-seq
