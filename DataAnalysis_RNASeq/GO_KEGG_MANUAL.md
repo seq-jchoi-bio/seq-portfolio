@@ -487,8 +487,8 @@ library(readxl)
 
     - **Output(left; Barplot, Right; Dotplot):**
     <p align="center">
-        <img src="Images/enrich_Barplot.png" alt="Barplot" style="width: 40vh; height: auto;">
-        <img src="Images/enrich_Dot.png" alt="enrichDot" style="width: 40vh; height: auto;">
+        <img src="Images/enrich_Barplot.png" alt="Barplot" style="width: 30vh; height: auto;">
+        <img src="Images/enrich_Dot.png" alt="enrichDot" style="width: 30vh; height: auto;">
     </p>
 
     3. Gene-concept network:
@@ -504,8 +504,8 @@ library(readxl)
 
     - **Output:**
     <p align="center">
-        <img src="Images/enrich_network1.png" alt="network1" style="width: 40vh; height: auto;">
-        <img src="Images/enrich_network2.png" alt="network2" style="width: 40vh; height: auto;">
+        <img src="Images/enrich_network1.png" alt="network1" style="width: 30vh; height: auto;">
+        <img src="Images/enrich_network2.png" alt="network2" style="width: 30vh; height: auto;">
     </p>
     
     4. Heatmap-like functional classification:
@@ -517,9 +517,9 @@ library(readxl)
         guides(fill = guide_colorbar(barwidth = 0.8, barheight = 5))
     ```
     - **Output:**
-    <div style="text-align: center; margin: 0;">
+    <p align="center">
         <img src="Images/enrich_Heatpl.png" alt="version1" style="width: 80vh; height: auto;">
-    </div>
+    </p>
 
     5. Tree plot
     ```R
@@ -527,9 +527,9 @@ library(readxl)
     p1 <- treeplot(egoTree, hclust_method = "average")
     ```
     - **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/enrich_Treeplot.png" alt="version2" style="width: 40vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/enrich_Treeplot.png" alt="version2" style="width: 35vh; height: auto;">
+    </p>
 
     6. **Gene Set Enrichment Analysis (GSEA)**:
     - GSEA is a computational method that determines if a predefined set of genes shows statistically significant differences between two biological states by comparing gene ranks within the set to those in the entire genome.
@@ -597,13 +597,13 @@ library(readxl)
         grid.text(lab, x = unit(0.95, "npc"), y = unit(0.95, "npc"), just = c("right", "top"), gp = gpar(col = "black", fontsize = 15))
         ```
     - **Output:**
-    <div style="text-align: center; margin: 0;">
-        <img src="Images/enrich_GSEA.png" alt="version2" style="width: 40vh; height: auto;">
-    </div>
+    <p align="center">
+        <img src="Images/enrich_GSEA.png" alt="version2" style="width: 30vh; height: auto;">
+    </p>
 
 # Citations
 #### DAVID
-- **Huang, D. W.**, Sherman, B. T., Tan, Q., Kir, J., Liu, D., Bryant, D., ... & Lempicki, R. A. (2007). **DAVID Bioinformatics Resources: expanded annotation database and novel algorithms to better extract biology from large gene lists**. *Nucleic acids research*, 35(suppl_2), W169-W175. [DOI](https://doi.org/10.1093/nar/gkm415)
+**Huang, D. W.**, Sherman, B. T., Tan, Q., Kir, J., Liu, D., Bryant, D., ... & Lempicki, R. A. (2007). **DAVID Bioinformatics Resources: expanded annotation database and novel algorithms to better extract biology from large gene lists**. *Nucleic acids research*, 35(suppl_2), W169-W175. [DOI](https://doi.org/10.1093/nar/gkm415)
 
 #### Gene Ontology Resource
 - Gene Ontology Consortium. (2001). **Creating the gene ontology resource: design and implementation**. *Genome research*, 11(8), 1425-1433. [DOI](https://doi.org/10.1101/gr.180801)
