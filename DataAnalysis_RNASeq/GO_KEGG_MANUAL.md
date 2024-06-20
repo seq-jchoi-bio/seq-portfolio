@@ -602,18 +602,14 @@ library(readxl)
     </div>
 
 # Citations
-- DAVID
+#### DAVID
+- **Huang, D. W.**, Sherman, B. T., Tan, Q., Kir, J., Liu, D., Bryant, D., ... & Lempicki, R. A. (2007). **DAVID Bioinformatics Resources: expanded annotation database and novel algorithms to better extract biology from large gene lists**. *Nucleic acids research*, 35(suppl_2), W169-W175. [DOI](https://doi.org/10.1093/nar/gkm415)
 
-**Huang, D. W.**, Sherman, B. T., Tan, Q., Kir, J., Liu, D., Bryant, D., ... & Lempicki, R. A. (2007). **DAVID Bioinformatics Resources: expanded annotation database and novel algorithms to better extract biology from large gene lists**. *Nucleic acids research*, 35(suppl_2), W169-W175. [DOI](https://doi.org/10.1093/nar/gkm415)
+#### Gene Ontology Resource
+- Gene Ontology Consortium. (2001). **Creating the gene ontology resource: design and implementation**. *Genome research*, 11(8), 1425-1433. [DOI](https://doi.org/10.1101/gr.180801)
 
-- Gene Ontology Resource
+#### ClusterProfiler
+- **Yu, G.**, Wang, L. G., Han, Y., & He, Q. Y. (2012). **clusterProfiler: an R package for comparing biological themes among gene clusters**. *Omics: a journal of integrative biology*, 16(5), 284-287. [DOI](https://doi.org/10.1089/omi.2011.0118)
 
-Gene Ontology Consortium. (2001). **Creating the gene ontology resource: design and implementation**. *Genome research*, 11(8), 1425-1433. [DOI](https://doi.org/10.1101/gr.180801)
-
-- ClusterProfiler
-
-**Yu, G.**, Wang, L. G., Han, Y., & He, Q. Y. (2012). **clusterProfiler: an R package for comparing biological themes among gene clusters**. *Omics: a journal of integrative biology*, 16(5), 284-287. [DOI](https://doi.org/10.1089/omi.2011.0118)
-
-- GSEA
-
-**Subramanian, A.**, Tamayo, P., Mootha, V. K., Mukherjee, S., Ebert, B. L., Gillette, M. A., ... & Mesirov, J. P. (2005). **Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles**. *Proceedings of the National Academy of Sciences*, 102(43), 15545-15550. [DOI](https://doi.org/10.1073/pnas.0506580102)
+#### GSEA
+- **Subramanian, A.**, Tamayo, P., Mootha, V. K., Mukherjee, S., Ebert, B. L., Gillette, M. A., ... & Mesirov, J. P. (2005). **Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles**. *Proceedings of the National Academy of Sciences*, 102(43), 15545-15550. [DOI](https://doi.org/10.1073/pnas.0506580102)
