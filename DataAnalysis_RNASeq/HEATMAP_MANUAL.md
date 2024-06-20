@@ -108,9 +108,10 @@ myCol_reverse <- colorRampPalette(rev(brewer.pal(11, "RdYlBu")))(100)
 ```
 - In these codes, `"RdYlBu"` indicates a specific color palette, the number `11` specifically refers to the number of different colors that you want to extract from the "RdYlBu" palette provided by the RColorBrewer package. The number of `100` means the granularity in the heatmap. The `rev` argument is used to reverse the color order. The available color codes and numbers are shown below image.
 
-<div style="text-align: center; overflow: hidden; height: 50vh; position: relative; margin-top: -20px; margin-bottom: -15px;">
-    <img src="https://r-graph-gallery.com/38-rcolorbrewers-palettes_files/figure-html/thecode-1.png" alt="RColorBrewer" style="width: auto; position: relative; top: -10px;">
-</div>
+<p align="center">
+    <img src="Images/rcolorbrw.png" alt="colorCode" style="width: 50vh; height: auto;">
+</p>
+
 
 The `viridis` package is also a good one that provides a palette for color selection.
 ```R
@@ -354,10 +355,10 @@ main_heatmap2 <- main_heatmap + rowAnnotation(
 draw(main_heatmap2, merge_legends = TRUE, gap = unit(0, "mm"))
 ```
 - **Output (Left; Step3, Right; Step4):**
-<div style="text-align: center; margin: 0;">
+<p align="center">
     <img src="Images/complexCase1_1.png" alt="young" style="max-width: 40vh; height: auto;">
     <img src="Images/complexCase1_2.png" alt="middle-aged" style="max-width: 40vh; height: auto;">
-</div>
+</p>
 
 ### Step-by-Step Guide: Case II - Integration of RNA-seq with Simpler Structured Dataset
 In this dataset, genes that respond to stress in human keratinocytes and three derived knockdown cell types are categorized by their fold change values, using normal cell expression levels as a baseline. Then, these genes were manually grouped into four categories (`Cluster`row) based on their expression patterns. Additionally, genes associated with ROS are enumerated in a separate row (`ROS.hallmark`) and identified as `ROS`. Moreover, the presence of MLL1, H3K4me3, UTX, and H3K27me3 peaks, as detected in normal cells under stress conditions from ChIP-seq results, is indicated by `0` (NO) and `1` (Yes) values.
@@ -501,10 +502,10 @@ heatmap_final <- main_heatmap + mll1_heatmap + h3k4_heatmap + utx_heatmap + h3k2
 draw(heatmap_final, merge_legends = TRUE, gap = unit(0, "mm"))
 ```
 - **Output (Left; Step2, Right; Step3):**
-<div style="text-align: center; margin: 0;">
+<p align="center">
     <img src="Images/complexCase2_1.png" alt="young" style="max-width: 40vh; height: auto;">
     <img src="Images/complexCase2_2.png" alt="middle-aged" style="max-width: 40vh; height: auto;">
-</div>
+</p>
 
 ### Step-by-Step Guide: Case III - Multiple RNA-seq Combined with ChIP-seq
 This example involves big data set derived from mouse mesenchymal stem cells (MSCs) and three different knockdown cell lines following their differentiation into osteoblasts and adipocytes, respectively. The primary data set comprises RNA-seq results from these cell lines undergone each differential stimuli. Additionally, as secondary data, ChIP-seq results are utilized for the genome-wide identification of alterations in the occupancy and enrichment of NFIB and H3K4me3 following the induction of bone differentiation in intact MSCs. Lastly, I present a heatmap to show whether the list of genes analyzed are transcription factors and regulators of each differentiation process.
