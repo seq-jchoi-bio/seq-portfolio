@@ -75,9 +75,9 @@ A volcano plot combines statistical significance with the magnitude of change (f
 - In these codes, you can adjust the size (`size`), shape (`shape`), transparency (`alpha`), and stroke (`stroke`) of the points to fit your preferences. The `fill` parameter allows you to specify colors for `"DOWN"`, `"NO"`, and `"UP"` states using `hex` codes. Refer to the ggplot2 documentation for more detailed information.
 
 - **Output:**
-  <div style="text-align: center; margin: 0;">
-      <img src="Images/Volcano_Basal.png" alt="Volcano_step1" style="max-width: 40vh; height: auto;">
-  </div>
+  <p align="center">
+      <img src="Images/Volcano_Basal.png" alt="Volcano_step1" style="width: 40vh; height: auto;">
+  </p>
 
 5. **Represent Gene Names that Satisfy Specific Conditions Using `ggrepel`**
 - In this case, I found ROS-related genes in papers and databases and labeled them as `ROS` in the `ROS.hallmark` column. Replace the values in this column with the corresponding values in the `SYMBOL` column for plotting:
@@ -111,9 +111,9 @@ A volcano plot combines statistical significance with the magnitude of change (f
   ```
 
 - **Output:**
-  <div style="text-align: center; margin: 0;">
-      <img src="Images/Volcano_Final.png" alt="Volcano_Final" style="max-width: 40vh; height: auto;">
-  </div>
+  <p align="center">
+      <img src="Images/Volcano_Final.png" alt="Volcano_Final" style="width: 40vh; height: auto;">
+  </p>
 
 ### Summarize
 ```R
@@ -238,9 +238,9 @@ The CPM scatter plot is used to visualize the normalized expression levels of ge
   ```
 
 - **Output:**
-  <div style="text-align: center; margin: 0;">
-      <img src="Images/Scatter.png" alt="ScatterPlot" style="max-width: 40vh; height: auto;">
-  </div>
+  <p align="center">
+      <img src="Images/Scatter.png" alt="ScatterPlot" style="width: 40vh; height: auto;">
+  </p>
 
 ### Summarize
 ```R
@@ -268,9 +268,8 @@ p2 <- set_panel_size(p, width = unit(49, "mm"), height = unit(49, "mm"))
 grid.arrange(p2)
 ```
 
-# Citation
-- R
+# Citations
+### R
 **R Core Team, R**. (2013). **R: A language and environment for statistical computing**. [HTML](https://apps.dtic.mil/sti/citations/AD1039033)
-
-- ggplot2
+### ggplot2
 **Wilkinson, L.** (2011). **ggplot2: elegant graphics for data analysis by WICKHAM, H**. [DOI](https://doi.org/10.1111/j.1541-0420.2011.01616.x)

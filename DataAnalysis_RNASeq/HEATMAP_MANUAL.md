@@ -751,11 +751,8 @@ TF_heatmap_Rev <- TF_heatmap + rowAnnotation(
 </div>
 
 # Citations
-- pheatmap
-
+### pheatmap
 **Kolde, R.**, & Kolde, M. R. (2015). **Package ‘pheatmap’**. *R package*, 1(7), 790. [PDF](https://cran.ms.unimelb.edu.au/web/packages/pheatmap/pheatmap.pdf)
-
-- complexHeatmap
-
-Gu, Z., & Hübschmann, D. (2022). Make interactive complex heatmaps in R. Bioinformatics, 38(5), 1460-1462. [DOI](https://doi.org/10.1093/bioinformatics/btab806)
+### complexHeatmap
+**Gu, Z.**, & Hübschmann, D. (2022). **Make interactive complex heatmaps in R**, *Bioinformatics*, 38(5), 1460-1462. [DOI](https://doi.org/10.1093/bioinformatics/btab806)
 

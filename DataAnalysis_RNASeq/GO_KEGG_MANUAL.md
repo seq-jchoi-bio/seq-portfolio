@@ -218,40 +218,9 @@ library(readxl)
     ```
 
 - **Output:**
-  <div style="text-align: center; margin: 0;">
-      <img src="Images/Bubble_multi.png" alt="BubbleMulti" style="max-width: 40vh; height: auto;">
-  </div>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typing Area</title>
-    <style>
-        .indented-container {
-            margin-left: 20px; 
-        }
-        .indented-container textarea {
-            width: calc(100% - 20px);
-            box-sizing: border-box;
-            font-family: Consolas, "Courier New", monospace;
-            font-size: 1em;
-        }
-        .indented-container p {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-    </style>
-</head>
-<body>
-    <div class="indented-container">
-        <p>Code Memo Area:</p>
-        <textarea rows="10"></textarea>
-    </div>
-</body>
-</html>
-
+  <p align="center">
+      <img src="Images/Bubble_multi.png" alt="BubbleMulti" style="width: 35vh; height: auto;">
+  </p>
 
 ### Step-by-Step Guide for Depicting Bubble Chart with a Single Column
 
@@ -306,39 +275,9 @@ library(readxl)
     grid.arrange(S4)
     ```
 - **Output:**
-  <div style="text-align: center; margin: 0;">
-      <img src="Images/Bubble_single.png" alt="BubbleMulti" style="max-width: 40vh; height: auto;">
-  </div>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typing Area</title>
-    <style>
-        .indented-container {
-            margin-left: 20px; 
-        }
-        .indented-container textarea {
-            width: calc(100% - 20px);
-            box-sizing: border-box;
-            font-family: Consolas, "Courier New", monospace;
-            font-size: 1em;
-        }
-        .indented-container p {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-    </style>
-</head>
-<body>
-    <div class="indented-container">
-        <p>Code Memo Area:</p>
-        <textarea rows="10"></textarea>
-    </div>
-</body>
-</html>
+  <p align="center">
+      <img src="Images/Bubble_single.png" alt="BubbleMulti" style="width: 35vh; height: auto;">
+  </p>
 
 ## Terminal-based GO Tools: enrichGO and enrichKEGG 
 The enrichGO and enrichKEGG are powerful R package part of the `clusterProfiler` suite, designed for the functional annotation and enrichment analysis of gene lists. They provide robust tools for GO and pathway enrichment analyses, allowing researchers to interpret the biological significance of large gene sets through comprehensive statistical analyses.
@@ -602,14 +541,11 @@ library(readxl)
     </p>
 
 # Citations
-#### DAVID
+### DAVID
 **Huang, D. W.**, Sherman, B. T., Tan, Q., Kir, J., Liu, D., Bryant, D., ... & Lempicki, R. A. (2007). **DAVID Bioinformatics Resources: expanded annotation database and novel algorithms to better extract biology from large gene lists**. *Nucleic acids research*, 35(suppl_2), W169-W175. [DOI](https://doi.org/10.1093/nar/gkm415)
-
-#### Gene Ontology Resource
-- Gene Ontology Consortium. (2001). **Creating the gene ontology resource: design and implementation**. *Genome research*, 11(8), 1425-1433. [DOI](https://doi.org/10.1101/gr.180801)
-
-#### ClusterProfiler
-- **Yu, G.**, Wang, L. G., Han, Y., & He, Q. Y. (2012). **clusterProfiler: an R package for comparing biological themes among gene clusters**. *Omics: a journal of integrative biology*, 16(5), 284-287. [DOI](https://doi.org/10.1089/omi.2011.0118)
-
-#### GSEA
-- **Subramanian, A.**, Tamayo, P., Mootha, V. K., Mukherjee, S., Ebert, B. L., Gillette, M. A., ... & Mesirov, J. P. (2005). **Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles**. *Proceedings of the National Academy of Sciences*, 102(43), 15545-15550. [DOI](https://doi.org/10.1073/pnas.0506580102)
+### Gene Ontology Resource
+Gene Ontology Consortium. (2001). **Creating the gene ontology resource: design and implementation**. *Genome research*, 11(8), 1425-1433. [DOI](https://doi.org/10.1101/gr.180801)
+### ClusterProfiler
+**Yu, G.**, Wang, L. G., Han, Y., & He, Q. Y. (2012). **clusterProfiler: an R package for comparing biological themes among gene clusters**. *Omics: a journal of integrative biology*, 16(5), 284-287. [DOI](https://doi.org/10.1089/omi.2011.0118)
+### GSEA
+**Subramanian, A.**, Tamayo, P., Mootha, V. K., Mukherjee, S., Ebert, B. L., Gillette, M. A., ... & Mesirov, J. P. (2005). **Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles**. *Proceedings of the National Academy of Sciences*, 102(43), 15545-15550. [DOI](https://doi.org/10.1073/pnas.0506580102)
